@@ -1,5 +1,7 @@
 # HPI information integration project SoSe 2022
 
+by Mark Bader and Vincent Opitz
+
 This repository provides a code base for the information integration course in the summer semester of 2022. Below you
 can find the documentation for setting up the project.
 

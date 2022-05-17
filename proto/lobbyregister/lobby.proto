@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package bakdata.corporate.v1;
+
+message RegisterEntry {
+  string registerNumber = 1;
+  Detail registerEntryDetail = 2;
+}
+  
+  
+message Detail {
+  uint32 id = 1;
+  Range employeeCount = 2;
+  bool refuseFinancialExpensesInformation = 3;
+  Expenses financialExpensesEuro = 4;
+  bool refusePublicAllowanceInformation = 5;
+  bool refuseDonationInformation = 6;
+  bool donationInformationRequired = 7;
+  Account account = 8
+  string activityDescription = 9;
+}
+
+message Range {
+  uint32 from = 1;
+  uint32 to = 2;
+}
+
+message Expenses {
+  uint32 from = 1;
+  uint32 to = 2;
+  string fiscalYearStart = 3;
+  string fiscalYearEnd = 4;
+}
+
+message Account {
+  string registerNumber = 1;
+  string firstPublicationDate = 2;
+  bool inactive = 3;
+}

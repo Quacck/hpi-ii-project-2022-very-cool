@@ -1,0 +1,217 @@
+{
+    "source": "Deutscher Bundestag, Lobbyregister für die Interessenvertretung gegenüber dem Deutschen Bundestag und der Bundesregierung",
+    "sourceUrl": "https://www.lobbyregister.bundestag.de",
+    "searchUrl": "https://www.lobbyregister.bundestag.de/suche?sort=REGISTRATION_DESC",
+    "searchDate": "2022-05-17T13:31:05.100Z",
+    "searchParameters": {
+      "queryString": "",
+      "sortOrder": "REGISTRATION_DESC",
+      "facets": [],
+      "numberRanges": []
+    },
+    "resultCount": 4561,
+    "results": [
+      {
+        "registerNumber": "R004575",
+        "registerEntryDetail": {
+          "id": 7820,
+          "employeeCount": { "from": 1, "to": 10 },
+          "refuseFinancialExpensesInformation": false,
+          "financialExpensesEuro": {
+            "from": 180001,
+            "to": 190000,
+            "fiscalYearStart": "01/21",
+            "fiscalYearEnd": "12/21"
+          },
+          "refusePublicAllowanceInformation": false,
+          "refuseDonationInformation": false,
+          "donationInformationRequired": false,
+          "account": {
+            "registerNumber": "R004575",
+            "firstPublicationDate": "2022-05-17T13:09:40.000Z",
+            "inactive": false
+          },
+          "activityDescription": "Vorrangig Inanspruchnahme strategischer Kommunikationsberatung (durch beauftragte Kommunikationsagentur CBE DIGIDEN sowie Erich Vad Consulting):\r\n- Vertretung des Unternehmens im Bundesverband der Tabakwirtschaft und neuartiger Erzeugnisse: Erarbeitung von Positionspapieren, Briefen, etc. \r\n- Laufende strategische Beratung\r\n- Politisches Monitoring \r\n- Anbahnung, inhaltliche Vorbereitung von Gesprächen mit MdB-Büros in Auftrag und Namen von Swedish Match\r\n- Durchführung von Gesprächen durch Swedish Match und/oder durch oben genannte Dienstleister in Auftrag und Namen von Swedish Match\r\n",
+          "activityOperationType": "BOTH",
+          "activity": {
+            "code": "ACT_ORGANIZATION",
+            "de": "Unternehmen",
+            "en": "Company"
+          },
+          "codexViolation": false,
+          "lobbyistIdentity": {
+            "identity": "ORGANIZATION",
+            "name": "Swedish Match AB",
+            "phoneNumber": "+46101393000",
+            "address": {
+              "type": "FOREIGN",
+              "internationalAdditional1": "SE-118 85 Stockholm",
+              "city": "Stockholm",
+              "country": { "code": "SE" }
+            },
+            "legalForm": {
+              "code": "LF_AG",
+              "code_de": "Aktiengesellschaft (AG)",
+              "code_en": "Stock company (AG)",
+              "type": "JURISTIC_PERSON"
+            },
+            "organizationEmails": ["contactus@swedishmatch.com"],
+            "websites": ["https://www.swedishmatch.com/"],
+            "legalRepresentatives": [
+              {
+                "commonFirstName": "Fredrik",
+                "lastName": "Peyron",
+                "function": "Senior Vice President Regulatory Affairs & Group Communications",
+                "phoneNumber": "+46705482323",
+                "organizationMemberEmails": ["fredrik.peyron@swedishmatch.com"]
+              }
+            ],
+            "namedEmployees": [
+              { "commonFirstName": "Johan", "lastName": "Gabrielsson" }
+            ],
+            "membershipEntries": [
+              "Bundesverband der Tabakwirtschaft und neuartiger Erzeugnisse (BVTE)"
+            ]
+          },
+          "legislativeProjects": [],
+          "donators": [],
+          "fieldsOfInterest": [
+            {
+              "code": "FOI_AGRICULTURE_FOOD|FOI_AF_FOOD_INDUSTRY",
+              "de": "Lebens- und Genussmittelindustrie",
+              "en": "Food and luxury food industry"
+            },
+            {
+              "code": "FOI_AGRICULTURE_FOOD",
+              "de": "Landwirtschaft und Ernährung",
+              "en": "Agriculture and food"
+            },
+            { "code": "FOI_ECONOMY", "de": "Wirtschaft", "en": "Economy" },
+            {
+              "code": "FOI_ECONOMY|FOI_ECONOMY_COMPETITION_LAW",
+              "de": "Wettbewerbsrecht",
+              "en": "Competition law"
+            },
+            {
+              "code": "FOI_ECONOMY|FOI_ECONOMY_CONSUMER_PROTECTION",
+              "de": "Verbraucherschutz",
+              "en": "Consumer protection"
+            },
+            { "code": "FOI_HEALTH", "de": "Gesundheit", "en": "Health" },
+            {
+              "code": "FOI_HEALTH|FOI_HEALTH_OTHER",
+              "de": "Sonstiges im Bereich „Gesundheit“",
+              "en": "Other in the field of “Health”"
+            }
+          ],
+          "clientOrganizations": [],
+          "clientPersons": [],
+          "registerEntryMedia": [
+            {
+              "type": "ANNUAL_REPORT",
+              "media": {
+                "fileName": "2021-swedishmatchannualreport-interactive-en.pdf",
+                "url": "https://www.lobbyregister.bundestag.de/media/cf/76/24151/2021-swedishmatchannualreport-interactive-en.pdf",
+                "mimeType": "application/pdf"
+              }
+            }
+          ],
+          "disclosureRequirementsExist": false,
+          "refuseAnnualFinanceStatement": false,
+          "annualReportExist": true
+        }
+      },
+      {
+        "registerNumber": "R004574",
+        "registerEntryDetail": {
+          "id": 5409,
+          "employeeCount": { "from": 1, "to": 10 },
+          "refuseFinancialExpensesInformation": false,
+          "refusePublicAllowanceInformation": false,
+          "refuseDonationInformation": false,
+          "account": {
+            "registerNumber": "R004574",
+            "firstPublicationDate": "2022-05-17T12:03:56.000Z",
+            "inactive": false
+          },
+          "activityDescription": "Politische Aufklärung und Interessensvertretung im Hinblick auf die Dekarbonisierung der Beton- und Zementindustrie. ",
+          "activityOperationType": "SELF_OPERATED",
+          "activity": {
+            "code": "ACT_ORGANIZATION",
+            "de": "Unternehmen",
+            "en": "Company"
+          },
+          "codexViolation": false,
+          "lobbyistIdentity": {
+            "identity": "ORGANIZATION",
+            "name": "alcemy GmbH",
+            "phoneNumber": "+4915792538995",
+            "address": {
+              "type": "NATIONAL",
+              "street": "Choriner Str. ",
+              "streetNumber": "83",
+              "zipCode": "10117",
+              "city": "Berlin",
+              "country": { "code": "DE" }
+            },
+            "legalForm": {
+              "code": "LF_GMBH",
+              "code_de": "Gesellschaft mit beschränkter Haftung (GmbH)",
+              "code_en": "Limited liability company (GmbH)",
+              "type": "JURISTIC_PERSON"
+            },
+            "organizationEmails": ["hoang.nguyen@alcemy.tech"],
+            "websites": ["alcemy.tech"],
+            "legalRepresentatives": [
+              {
+                "commonFirstName": "Hoang ",
+                "lastName": "Nguyen",
+                "function": "Public Policy Manager",
+                "phoneNumber": "+4915792538995",
+                "organizationMemberEmails": ["hoang.nguyen@alcemy.tech"]
+              }
+            ],
+            "namedEmployees": [],
+            "membershipEntries": [
+              "Bundesverband Deutsche Startups",
+              "KI Bundesverband",
+              "Deutscher Beton- und Bautechnik-Verein",
+              "Deutsche Gesellschaft für Nachhaltiges Bauen"
+            ]
+          },
+          "legislativeProjects": [],
+          "donators": [],
+          "fieldsOfInterest": [
+            { "code": "FOI_ENVIRONMENT", "de": "Umwelt", "en": "Environment" },
+            {
+              "code": "FOI_ENVIRONMENT|FOI_ENVIRONMENT_CLIMATE",
+              "de": "Klimaschutz",
+              "en": "Climate protection"
+            },
+            {
+              "code": "FOI_REGINAL_PLANNING",
+              "de": "Raumordnung, Bau- und Wohnungswesen",
+              "en": "Spatial planning, construction and housing"
+            },
+            {
+              "code": "FOI_REGINAL_PLANNING|FOI_RP_CITY",
+              "de": "Stadtentwicklung",
+              "en": "Urban development"
+            },
+            {
+              "code": "FOI_REGINAL_PLANNING|FOI_RP_DEVELOPMENT",
+              "de": "Bauwesen und Bauwirtschaft",
+              "en": "Construction and construction industry"
+            }
+          ],
+          "clientOrganizations": [],
+          "clientPersons": [],
+          "registerEntryMedia": [],
+          "disclosureRequirementsExist": false,
+          "refuseAnnualFinanceStatement": false,
+          "annualReportExist": false,
+          "missingAnnualReportReason": ""
+        }
+      }
+    ]
+}

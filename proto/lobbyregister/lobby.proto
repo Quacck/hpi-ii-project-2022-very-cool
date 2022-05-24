@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package bakdata.corporate.v1;
+package lobbyregister;
 
 message RegisterEntry {
   string registerNumber = 1;

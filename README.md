@@ -1,6 +1,6 @@
 # HPI information integration project SoSe 2022
 
-by Mark Bader and Vincent Opitz
+_by Mark Bader and Vincent Opitz_
 
 This repository provides a code base for the information integration course in the summer semester of 2022. Below you
 can find the documentation for setting up the project.
@@ -27,7 +27,7 @@ and `land_abk`. For instance, we chose the state Rheinland-Pfalz `rp` with an an
 new entry of the company BioNTech.
 
 ```shell
-export STATE="rp" 
+export STATE="rp"
 export RB_ID="56267"
 curl -X GET  "https://www.handelsregisterbekanntmachungen.de/skripte/hrb.php?rb_id=$RB_ID&land_abk=$STATE"
 ```

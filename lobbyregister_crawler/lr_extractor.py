@@ -1,3 +1,4 @@
+from atexit import register
 import logging
 from time import sleep
 
@@ -28,31 +29,45 @@ class LrExtractor:
 
     def parse_default(self, jsonTree, current):
         for field in current.DESCRIPTOR.fields:
-            self.parse_field(field, jsonTree, current)
-
+            if field.name not in jsonTree:
+                continue
+            value = self.parse_field(field, jsonTree[field.name])
+            if field.label == FieldDescriptor.LABEL_REPEATED:
+                getattr(current, field.name).extend(value)
+            elif field.type == FieldDescriptor.TYPE_MESSAGE:
+                getattr(current, field.name).CopyFrom(value)
+            else:
+                setattr(current, field.name, self.parse_primitive(value))
+            
         return current
 
-    def parse_field(self, field, jsonTree, current):
-            if field.label == FieldDescriptor.LABEL_REPEATED:
-                self.parse_array(field, jsonTree[field.name], current)
-            if field.type == FieldDescriptor.TYPE_MESSAGE:
-                self.parse_message(field, jsonTree[field.name], current)
-            else:
-                self.parse_primitive(field, jsonTree[field.name], current)
+    def parse_field(self, field: FieldDescriptor, jsonTree, useArray = True):
+        if useArray and field.label == FieldDescriptor.LABEL_REPEATED:
+            # getattr(current, field.name).extend(self.parse_array(field, jsonTree[field.name]))
+            return self.parse_array(field, jsonTree)
+        elif field.type == FieldDescriptor.TYPE_MESSAGE:
+            # getattr(current, field.name).CopyFrom(self.parse_message(field, jsonTree[field.name]))
+            return self.parse_message(field, jsonTree)
+        else:
+            # setattr(current, field.name, self.parse_primitive(jsonTree[field.name]))
+            return self.parse_primitive(jsonTree)
 
-    def parse_array(self, field, array, current):
-        temp = [self.parse_default(field, element, None) for element in array]
-        getattr(current, field.name).extend(temp)
+    def parse_array(self, field: FieldDescriptor, array: list):
+        return [self.parse_field(field, element, False) for element in array]
+        # getattr(current, field.name).extend(temp)
 
-    def parse_message(self, field, jsonTree, current):
+    def parse_message(self, field, jsonTree):
+        message = self.create_object_for_field(field)
+        return self.parse_default(jsonTree, message)
+        # getattr(current, field.name).CopyFrom(message)
+
+    def parse_primitive(self, jsonTree):
+        return jsonTree
+        # setattr(current, field.name, jsonTree)
+
+    def create_object_for_field(self, field: FieldDescriptor):
         class_ = getattr(lobby, field.message_type.name)
-        message = class_()
-        self.parse_default(jsonTree, message)
-        getattr(current, field.name).CopyFrom(message)
-
-    def parse_primitive(self, field, jsonTree, current):
-        setattr(current, field.name, jsonTree)
-
+        return class_()
 
 
     #         if field.type != FieldDescriptor.TYPE_MESSAGE:

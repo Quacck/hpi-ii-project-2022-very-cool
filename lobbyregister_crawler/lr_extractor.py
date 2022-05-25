@@ -26,33 +26,58 @@ class LrExtractor:
                 registerEntry = self.parse_default(entry, lobby.Entry())
                 log.info(registerEntry)
 
-
     def parse_default(self, jsonTree, current):
-
         for field in current.DESCRIPTOR.fields:
-            if field.type != FieldDescriptor.TYPE_MESSAGE:
-                if field.label != FieldDescriptor.LABEL_REPEATED:
-                    self.smart_set(current, field, jsonTree[field.name])
-                else:
-                    self.smart_set(getattr(current, field.name), [self.parse_default() for element in ])
+            self.parse_field(field, jsonTree, current)
 
-            else:
-                class_ = getattr(lobby, field.message_type.name)
-                child_instance = class_()
-                self.smart_set(current, field, self.parse_default(jsonTree[field.name], child_instance))
         return current
 
-    def smart_set(self, object, field, content):
-        if isinstance(object, list):
-            object.append(content)
-
-        if field.label == FieldDescriptor.LABEL_REPEATED:
-            getattr(object, field.name).extend(content)
-        else:
+    def parse_field(self, field, jsonTree, current):
+            if field.label == FieldDescriptor.LABEL_REPEATED:
+                self.parse_array(field, jsonTree[field.name], current)
             if field.type == FieldDescriptor.TYPE_MESSAGE:
-                getattr(object, field.name).CopyFrom(content)
+                self.parse_message(field, jsonTree[field.name], current)
             else:
-                setattr(object, field.name, content)
+                self.parse_primitive(field, jsonTree[field.name], current)
+
+    def parse_array(self, field, array, current):
+        temp = [self.parse_default(field, element, None) for element in array]
+        getattr(current, field.name).extend(temp)
+
+    def parse_message(self, field, jsonTree, current):
+        class_ = getattr(lobby, field.message_type.name)
+        message = class_()
+        self.parse_default(jsonTree, message)
+        getattr(current, field.name).CopyFrom(message)
+
+    def parse_primitive(self, field, jsonTree, current):
+        setattr(current, field.name, jsonTree)
+
+
+
+    #         if field.type != FieldDescriptor.TYPE_MESSAGE:
+    #             if field.label != FieldDescriptor.LABEL_REPEATED:
+    #                 self.smart_set(current, field, jsonTree[field.name])
+    #             else:
+    #                 self.smart_set(getattr(current, field.name), [self.parse_default() for element in ])
+
+    #         else:
+    #             class_ = getattr(lobby, field.message_type.name)
+    #             child_instance = class_()
+    #             self.smart_set(current, field, self.parse_default(jsonTree[field.name], child_instance))
+    #     return current
+
+    # def smart_set(self, object, field, content):
+    #     if isinstance(object, list):
+    #         object.append(content)
+
+    #     if field.label == FieldDescriptor.LABEL_REPEATED:
+    #         getattr(object, field.name).extend(content)
+    #     else:
+    #         if field.type == FieldDescriptor.TYPE_MESSAGE:
+    #             getattr(object, field.name).CopyFrom(content)
+    #         else:
+    #             setattr(object, field.name, content)
 
 
 

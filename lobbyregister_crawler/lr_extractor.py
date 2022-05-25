@@ -3,87 +3,75 @@ from time import sleep
 
 import json
 import requests
-from parsel import Selector
 
-from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate, Status
-from lr_producer import LrProducer
+# from build.gen.lobbyregister.lobby_pb2 import *
+import build.gen.lobbyregister.lobby_generated_pb2 as lobby
+from google.protobuf.descriptor import FieldDescriptor
+# from lr_producer import LrProducer
 
 log = logging.getLogger(__name__)
 
 
 class LrExtractor:
     def __init__(self):
-        self.producer = LrProducer()
+        pass
+        # self.producer = LrProducer()
 
     def extract_everything(self):
         with open('data/not_all.json') as file:
             data = json.load(file)
             for entry in data['results']:
                 # somehow_produce_entry(entry)
-                log.info(f"Found {entry}")
+                log.info(f"Found new Entry with ID: {entry['registerNumber']}")
+                registerEntry = self.parse_default(entry, lobby.Entry())
+                log.info(registerEntry)
 
 
-    def extract(self):
-        while True:
-            try:
-                log.info(f"Sending Request for: {self.rb_id} and state: {self.state}")
-                text = self.send_request()
-                if "Falsche Parameter" in text:
-                    log.info("The end has reached")
-                    break
-                selector = Selector(text=text)
-                corporate = Corporate()
-                corporate.rb_id = self.rb_id
-                corporate.state = self.state
-                corporate.reference_id = self.extract_company_reference_number(selector)
-                event_type = selector.xpath("/html/body/font/table/tr[3]/td/text()").get()
-                corporate.event_date = selector.xpath("/html/body/font/table/tr[4]/td/text()").get()
-                corporate.id = f"{self.state}_{self.rb_id}"
-                raw_text: str = selector.xpath("/html/body/font/table/tr[6]/td/text()").get()
-                self.handle_events(corporate, event_type, raw_text)
-                self.rb_id = self.rb_id + 1
-                log.debug(corporate)
-            except Exception as ex:
-                log.error(f"Skipping {self.rb_id} in state {self.state}")
-                log.json(f"Cause: {ex}")
-                self.rb_id = self.rb_id + 1
-                continue
-        exit(0)
+    def parse_default(self, jsonTree, current):
 
-    def send_request(self) -> str:
-        url = f"https://www.handelsregisterbekanntmachungen.de/skripte/hrb.php?rb_id={self.rb_id}&land_abk={self.state}"
-        # For graceful crawling! Remove this at your own risk!
-        sleep(0.5)
-        return requests.get(url=url).text
+        for field in current.DESCRIPTOR.fields:
+            if field.type != FieldDescriptor.TYPE_MESSAGE:
+                if field.label != FieldDescriptor.LABEL_REPEATED:
+                    self.smart_set(current, field, jsonTree[field.name])
+                else:
+                    self.smart_set(getattr(current, field.name), [self.parse_default() for element in ])
 
-    @staticmethod
-    def extract_company_reference_number(selector: Selector) -> str:
-        return ((selector.xpath("/html/body/font/table/tr[1]/td/nobr/u/text()").get()).split(": ")[1]).strip()
+            else:
+                class_ = getattr(lobby, field.message_type.name)
+                child_instance = class_()
+                self.smart_set(current, field, self.parse_default(jsonTree[field.name], child_instance))
+        return current
 
-    def handle_events(self, corporate, event_type, raw_text):
-        if event_type == "Neueintragungen":
-            self.handle_new_entries(corporate, raw_text)
-        elif event_type == "Veränderungen":
-            self.handle_changes(corporate, raw_text)
-        elif event_type == "Löschungen":
-            self.handle_deletes(corporate)
+    def smart_set(self, object, field, content):
+        if isinstance(object, list):
+            object.append(content)
 
-    def handle_new_entries(self, corporate: Corporate, raw_text: str) -> Corporate:
-        log.debug(f"New company found: {corporate.id}")
-        corporate.event_type = "create"
-        corporate.information = raw_text
-        corporate.status = Status.STATUS_ACTIVE
-        self.producer.produce_to_topic(corporate=corporate)
+        if field.label == FieldDescriptor.LABEL_REPEATED:
+            getattr(object, field.name).extend(content)
+        else:
+            if field.type == FieldDescriptor.TYPE_MESSAGE:
+                getattr(object, field.name).CopyFrom(content)
+            else:
+                setattr(object, field.name, content)
 
-    def handle_changes(self, corporate: Corporate, raw_text: str):
-        log.debug(f"Changes are made to company: {corporate.id}")
-        corporate.event_type = "update"
-        corporate.status = Status.STATUS_ACTIVE
-        corporate.information = raw_text
-        self.producer.produce_to_topic(corporate=corporate)
 
-    def handle_deletes(self, corporate: Corporate):
-        log.debug(f"Company {corporate.id} is inactive")
-        corporate.event_type = "delete"
-        corporate.status = Status.STATUS_INACTIVE
-        self.producer.produce_to_topic(corporate=corporate)
+
+
+    # def parse_register_entry(self, root):
+    #     registerEntry = lobby.RegisterEntry()
+    #     registerEntry.registerNumber = root['registerNumber']
+    #     registerEntry.registerEntryDetail.CopyFrom(self.parse_detail(root['registerEntryDetail']))
+    #     return registerEntry
+
+    # def parse_detail(self, root):
+    #     registerEntryDetail = lobby.Detail()
+    #     registerEntryDetail.id = root["id"]
+    #     registerEntryDetail.employeeCount.CopyFrom(self.parse_range(root['employeeCount']))
+    #     registerEntryDetail.activityDescription = root['activityDescription']
+    #     return registerEntryDetail
+
+    # def parse_range(self, root):
+    #     rangeData = lobby.Range()
+    #     rangeData.begin = root['from']
+    #     rangeData.end = root['to']
+    #     return rangeData

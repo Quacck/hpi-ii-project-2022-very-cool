@@ -1,6 +1,6 @@
 import logging
 import os
-from lobbyregister_crawler.lr_extractor import LrExtractor
+from lr_extractor import LrExtractor
 
 logging.basicConfig(
     level=os.environ.get("LOGLEVEL", "INFO"), format="%(asctime)s | %(name)s | %(levelname)s | %(message)s"

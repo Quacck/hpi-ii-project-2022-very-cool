@@ -5,8 +5,8 @@ import "google/protobuf/timestamp.proto";
 // Generated using mostly https://json-to-proto.github.io/
 
 message Range {
-    uint32 from = 1;
-    uint32 to = 2;
+    uint64 from = 1; // uint32 is too small
+    uint64 to = 2;
 }
 
 message Financialexpenseseuro {

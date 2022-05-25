@@ -19,7 +19,7 @@ class LrExtractor:
         # self.producer = LrProducer()
 
     def extract_everything(self):
-        with open('data/not_all.json') as file:
+        with open('data/all.json') as file:
             data = json.load(file)
             for entry in data['results']:
                 # somehow_produce_entry(entry)

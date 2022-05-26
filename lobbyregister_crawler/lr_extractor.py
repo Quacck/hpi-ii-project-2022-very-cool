@@ -3,17 +3,17 @@ import logging
 from time import sleep
 
 import json
-import requests
 
 import build.gen.lobbyregister.lobby_generated_pb2 as lobby
 from google.protobuf.descriptor import FieldDescriptor
+from lr_producer import LrProducer
 
 log = logging.getLogger(__name__)
 
 
 class LrExtractor:
     def __init__(self):
-        pass
+        self.producer = LrProducer()
 
     def extract_everything(self):
         with open('data/all.json') as file:
@@ -21,6 +21,7 @@ class LrExtractor:
             for entry in data['results']:
                 log.info(f"Found new Entry with ID: {entry['registerNumber']}")
                 protobuf_object = self.parse_default(entry, lobby.Entry())
+                self.producer.produce_to_topic(protobuf_object)
                 
                 
 

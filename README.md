@@ -137,6 +137,15 @@ Options:
   --help                          Show this message and exit.
 ```
 
+### Lobbyregister parser
+
+You can start the lobbyregister parser
+
+```shell
+poetry run python lobbyregister_parser/main.py --id $RB_ID --state $STATE
+```
+
+
 ## Query data
 
 ### Kowl

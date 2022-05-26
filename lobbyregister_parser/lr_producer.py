@@ -6,7 +6,7 @@ from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.protobuf import ProtobufSerializer
 from confluent_kafka.serialization import StringSerializer
 
-from lobbyregister_crawler.constant import TOPIC, SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER
+from lobbyregister_parser.constant import TOPIC, SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER
 log = logging.getLogger(__name__)
 
 

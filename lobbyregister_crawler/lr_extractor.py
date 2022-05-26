@@ -4,7 +4,7 @@ from time import sleep
 
 import json
 
-import build.gen.lobbyregister.lobby_generated_pb2 as lobby
+import build.gen.lobbyregister.lobby.v1.lobby_pb2 as lobby
 from google.protobuf.descriptor import FieldDescriptor
 from lr_producer import LrProducer
 

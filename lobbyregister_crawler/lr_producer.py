@@ -1,5 +1,5 @@
 import logging
-from build.gen.lobbyregister.lobby_generated_pb2 import Entry
+from build.gen.lobbyregister.lobby.v1.lobby_generated_pb2 import Entry
 
 from confluent_kafka import SerializingProducer
 from confluent_kafka.schema_registry import SchemaRegistryClient

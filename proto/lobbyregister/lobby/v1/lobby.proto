@@ -1,0 +1,140 @@
+syntax = "proto3";
+
+package lobbyregister;
+
+// Generated using mostly https://json-to-proto.github.io/
+
+message Entry {
+    string registerNumber = 1;
+    Registerentrydetail registerEntryDetail = 2;
+}
+
+message Range {
+    uint64 from = 1; // uint32 is too small
+    uint64 to = 2;
+}
+
+message Financialexpenseseuro {
+    uint32 from = 1;
+    uint32 to = 2;
+    string fiscalYearStart = 3;
+    string fiscalYearEnd = 4;
+}
+
+message Account {
+    string registerNumber = 1;
+    string firstPublicationDate = 2;
+    bool inactive = 3;
+}
+
+message Activity {
+    string code = 1;
+    string de = 2;
+    string en = 3;
+}
+
+message Legislativeproject {
+    string name = 1;
+}
+
+message Country {
+    string code = 1;
+}
+
+message Address {
+    string type = 1;
+    string internationalAdditional1 = 2;
+    string city = 3;
+    Country country = 4;
+}
+
+message Legalform {
+    string code = 1;
+    string code_de = 2;
+    string code_en = 3;
+    string type = 4;
+}
+
+message Legalrepresentatives {
+    string commonFirstName = 1;
+    string lastName = 2;
+    string function = 3;
+    string phoneNumber = 4;
+    repeated string organizationMemberEmails = 5;
+}
+
+message Namedemployees {
+    string commonFirstName = 1;
+    string lastName = 2;
+}
+
+message Lobbyistidentity {
+    string identity = 1;
+    string name = 2;
+    string phoneNumber = 3;
+    Address address = 4;
+    Legalform legalForm = 5;
+    repeated string organizationEmails = 6;
+    repeated string websites = 7;
+    repeated Legalrepresentatives legalRepresentatives = 8;
+    repeated Namedemployees namedEmployees = 9;
+    repeated string membershipEntries = 10;
+}
+
+message Fieldsofinterest {
+    string code = 1;
+    string de = 2;
+    string en = 3;
+}
+
+message Media {
+    string fileName = 1;
+    string url = 2;
+    string mimeType = 3;
+}
+
+message Donator {
+    string name = 1;
+    string description = 2;
+    string location = 3;
+    string fiscalYearStart = 4;
+    string fiscalYearEnd = 5;
+    Range donationEuro = 6;
+    string categoryType = 7;
+}
+
+message Clientperson {
+    string commonFirstName = 1;
+    string lastName = 2;
+    string academicDegreeAfter = 3;
+}
+
+message Registerentrymedia {
+    string type = 1;
+    Media media = 2;
+}
+
+message Registerentrydetail {
+    uint32 id = 1;
+    Range employeeCount = 2;
+    bool refuseFinancialExpensesInformation = 3;
+    Financialexpenseseuro financialExpensesEuro = 4;
+    bool refusePublicAllowanceInformation = 5;
+    bool refuseDonationInformation = 6;
+    bool donationInformationRequired = 7;
+    Account account = 8;
+    string activityDescription = 9;
+    string activityOperationType = 10;
+    Activity activity = 11;
+    bool codexViolation = 12;
+    Lobbyistidentity lobbyistIdentity = 13;
+    repeated Legislativeproject legislativeProjects = 14;
+    repeated Donator donators = 15;
+    repeated Fieldsofinterest fieldsOfInterest = 16;
+    repeated Legislativeproject clientOrganizations = 17;
+    repeated Clientperson clientPersons = 18;
+    repeated Registerentrymedia registerEntryMedia = 19;
+    bool disclosureRequirementsExist = 20;
+    bool refuseAnnualFinanceStatement = 21;
+    bool annualReportExist = 22;
+}

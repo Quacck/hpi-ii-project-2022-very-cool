@@ -139,12 +139,11 @@ Options:
 
 ### Lobbyregister parser
 
-You can start the lobbyregister parser
+You can start the lobbyregister parser with:
 
 ```shell
-poetry run python lobbyregister_parser/main.py --id $RB_ID --state $STATE
+poetry run python lobbyregister_parser/main.py
 ```
-
 
 ## Query data
 

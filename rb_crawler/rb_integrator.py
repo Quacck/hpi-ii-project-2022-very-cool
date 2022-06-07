@@ -1,3 +1,4 @@
+from cgi import test
 import logging
 import re
 
@@ -24,6 +25,14 @@ class RbIntegrator:
         corporate_name = re.search(r'^[^,]*', information) # match everything up to the first ,
         print('found ', corporate_name.group(0), ' at ', adress.group(0))
 
+    def get_adress(self, information: str):
+        return re.search(r'\w+\((.*)\)', information).group(0) # match Word(anything)
+
+    def get_corporate_name(self, information: str):
+        return re.search(r'^[^,]*', information).group(0) # match everything up to the first ,
+
 if __name__ == "__main__":
+    teststring = "Vattenfall Europe Mining Aktiengesellschaft, Cottbus(Vom-Stein-Straße 39, 03050  Cottbus). Nicht mehr Prokurist: 12. Dr. Florin, Jan-Henrich. Gegenstand"
     integrator = RbIntegrator()
-    integrator.parse("Vattenfall Europe Mining Aktiengesellschaft, Cottbus(Vom-Stein-Straße 39, 03050  Cottbus). Nicht mehr Prokurist: 12. Dr. Florin, Jan-Henrich. Gegenstand")
+    assert integrator.get_adress(teststring) == "Cottbus(Vom-Stein-Straße 39, 03050  Cottbus)"
+    assert integrator.get_corporate_name(teststring) == "Vattenfall Europe Mining Aktiengesellschaft"

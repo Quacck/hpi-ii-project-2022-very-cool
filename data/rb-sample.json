@@ -1,0 +1,1349 @@
+[
+    {
+        "partitionID": 0,
+        "offset": 11933,
+        "timestamp": 1654156780313,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13495",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13495",
+                "rbId": 13495,
+                "state": "br",
+                "referenceId": "HRB 3326 CB",
+                "eventDate": "02.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Vattenfall Europe Mining Aktiengesellschaft, Cottbus(Vom-Stein-Straße 39, 03050  Cottbus). Nicht mehr Prokurist: 12. Dr. Florin, Jan-Henrich."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11934,
+        "timestamp": 1654156780924,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13496",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13496",
+                "rbId": 13496,
+                "state": "br",
+                "referenceId": "HRB 4630 CB",
+                "eventDate": "05.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "GFM Getränkefachmarkt Contor GmbH, Senftenberg(Spremberger Straße 15, 01968  Senftenberg). Nicht mehr Geschäftsführer:; 2. Schenker, Rolf; Geschäftsführer:; 3. Schenker, Tilo, *01.06.1964, Dresden; mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11935,
+        "timestamp": 1654156781553,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13497",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13497",
+                "rbId": 13497,
+                "state": "br",
+                "referenceId": "HRB 4851 CB",
+                "eventDate": "11.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "EEpL Entwicklungsgesellschaft Energiepark Lausitz-GmbH, Finsterwalde(Grenzstr. 62, 03238  Finsterwalde). Änderung zu Nr. 1:; Geschäftsführer:; Bünger, Marco; mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Änderung zu Nr. 2:; Geschäftsführer:; Freigang, Mirko; mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11936,
+        "timestamp": 1654156782193,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13498",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13498",
+                "rbId": 13498,
+                "state": "br",
+                "referenceId": "HRB 5485 CB",
+                "eventDate": "11.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "KOLOTREU-Bauträgergesellschaft mbH, Cottbus(Heinrich-Zille-Str. 51, 03042  Cottbus). Durch Beschluss der Gesellschafterversammlung vom 20.12.2006 wurde der Gesellschaftsvertrag in § 16 (Bekanntmachungen) geändert.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11937,
+        "timestamp": 1654156782810,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13499",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13499",
+                "rbId": 13499,
+                "state": "br",
+                "referenceId": "HRB 5706 CB",
+                "eventDate": "29.03.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "First Document Technologies GmbH, Peitz(Am Bahnhof 5, 03185  Peitz). Nicht mehr Geschäftsführer: 1. Groth, Dietrich; Geschäftsführer: 2. Heintze, Stefan, *17.10.1962, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11938,
+        "timestamp": 1654156783430,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13500",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13500",
+                "rbId": 13500,
+                "state": "br",
+                "referenceId": "HRB 5903 CB",
+                "eventDate": "05.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Energieversorgung Brand GmbH, Krausnick-Groß Wasserburg(Tropical-Islands-Allee 10, 15910  Krausnick- Groß Wasserburg). Neuer Gegenstand: Die Versorgung sämtlicher Tropical Islands Gesellschaften und anderer Unternehmen am Standort Brand ggf. angrenzender Gebiete mit Strom, Erd- und Flüssiggas (Propan und Butan), Wärme und Druckluft (die Medien), die Bereitstellung einer Feuerlöschzentrale für den so genannten Dome sowie die Ver- und/oder Entsorgung von Unternehmen am Standort Brand mit Wasser, techn. Wasser, Schmutz- und Regenwasser. Die Einspeisung von Strom in das öffentliche Netz, der Bezug von Strom und die Durchleitung von Strom auf der Grundlage gesetzlicher Vorschriften gehören zum Gegenstand des Unternehmens. Weiterhin die Einbringung von Serviceleistungen im technischen und infrastrukturellen Bereich, sowie die Durchführung von Kommunikationsdienstleistungen. Durch Beschluss der Gesellschafterversammlung vom 23.08.2006 wurde der Gesellschaftsvertrag neu gefasst, insbesondere wurde § 2 (Gegenstand geändert.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11939,
+        "timestamp": 1654156784046,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13501",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13501",
+                "rbId": 13501,
+                "state": "br",
+                "referenceId": "HRB 6014 CB",
+                "eventDate": "29.03.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "BRAIN Brandenburg Innovation GmbH Cottbus, Cottbus(Am Turm 14, 03046  Cottbus). Nicht mehr Geschäftsführer: 1. Prof. Dr. Duelen, Gerardus; Die Gesellschafterversammlung vom 22.02.2007 hat die Änderung des Gesellschaftsvertrages in § 3(Stammkapital) sowie in § 5 (Bekanntmachungen) beschlossen und entsprechend neu gefaßt.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11940,
+        "timestamp": 1654156784677,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13502",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13502",
+                "rbId": 13502,
+                "state": "br",
+                "referenceId": "HRB 6093 CB",
+                "eventDate": "03.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "CBS Compakt-Bau-Service GmbH, Finsterwalde(Lichterfelder Str. 97, 03232  Finsterwalde). Die Gesellschaft ist infolge der Eröffnung des Insolvenzverfahrens (63 IN 75/07 Amtsgericht Cottbus) aufgelöst.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11941,
+        "timestamp": 1654156785298,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13503",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13503",
+                "rbId": 13503,
+                "state": "br",
+                "referenceId": "HRB 6431 CB",
+                "eventDate": "04.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "DRAHTWERK FINSTERWALDE GMBH, Finsterwalde(Grenzstr. 45, 03238  Finsterwalde). Der mit der Drahtwerke und Stahlhandel Finsterwalde GmbH (Amtsgericht Cottbus HRB 162 CB) bestehende Beherrschungs- und Gewinnabführungsvertrag ist durch Aufhebungsvertrag vom 13.12.2006 zum 31.12.2006 aufgehoben worden. Als nicht eingetragen wird veröffentlicht: Der andere Vertragsteil hat den Gläubigern dieses Rechtsträgers, dessen Forderungen begründet worden sind, bevor die Eintragung der Beendigung dieses Vertrages in das Handelsregister nach § 10 des Handelsgesetzbuches als bekannt gemacht gilt, Sicherheit zu leisten, wenn sie sich binnen sechs Monaten nach der Bekanntmachung der Eintragung zu diesem Zweck bei ihm melden.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11942,
+        "timestamp": 1654156785937,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13504",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13504",
+                "rbId": 13504,
+                "state": "br",
+                "referenceId": "HRB 6474 CB",
+                "eventDate": "02.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Diedemann/Hoppe Immobilienverwaltungsgesellschaft mbH, Cottbus(Zimmerstr. 13, 03044  Cottbus). Die Gesellschafterversammlung vom 18.9.2006 hat die Änderung des Gesellschaftsvertrages in § 12 (Einziehung von Geschäftsanteilen), § 15 (Bewertung und Abfindung), § 16 (Bekanntmachung) beschlossen und den Gesellschaftsvertrag entsprechend gefaßt.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11943,
+        "timestamp": 1654156786533,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13505",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13505",
+                "rbId": 13505,
+                "state": "br",
+                "referenceId": "HRB 6713 CB",
+                "eventDate": "11.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "BHR Baustoffe, Handel und Recycling GmbH, Doberlug-Kirchhain(Finsterwalder Str. 16, 03253  Doberlug - Kirchhain). Nicht mehr Geschäftsführer:;1. Rosenow, Christian-Matthias; Geschäftsführer:; 2. Zimmermann, Peer, *30.10.1962, Finsterwalde; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließenProkura: 1. Rabe, Ingbert, *10.08.1961, Dreiheide OT Süptitz; Einzelprokura.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11944,
+        "timestamp": 1654156787156,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13506",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13506",
+                "rbId": 13506,
+                "state": "br",
+                "referenceId": "HRB 6792 CB",
+                "eventDate": "11.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Daedalus Consult Europe GmbH, Peitz(Schulstr. 8 a, 03185  Peitz). Neue Firma: Daedalus Consult & Engineering GmbH . Durch Beschluss der Gesellschafterversammlung vom 01.02.2007 wurden die Firma und der Gesellschaftsvertrag in § 1 (Firma und Sitz) entsprechend geändert.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11945,
+        "timestamp": 1654156788787,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13507",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13507",
+                "rbId": 13507,
+                "state": "br",
+                "referenceId": "HRB 6951 CB",
+                "eventDate": "04.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Weiher Systemausbau AG, Ortrand(Kroppener Str. 7, 01990  Ortrand). Über das Vermögen der Gesellschaft ist durch Beschluss des Amtsgerichts Cottbus vom 08.02.2007, Az.: 63 IN 585/06 das Insolvenzverfahren eröffnet worden. Die Gesellschaft ist dadurch aufgelöst.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11946,
+        "timestamp": 1654156789407,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13508",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13508",
+                "rbId": 13508,
+                "state": "br",
+                "referenceId": "HRB 7071 CB",
+                "eventDate": "04.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Probüro Gesellschaft für Papier & Bürobedarf mbH, Peitz(Am Bahnhof 5, 03185  Peitz). Nicht mehr Geschäftsführer:; 1. Groth, Dietrich; Geschäftsführer:; 2. Hoffmann, Martin, *14.03.1962, Idstein; mit der Befugnis die Gesellschaft allein zu vertreten.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11947,
+        "timestamp": 1654156790024,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13509",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13509",
+                "rbId": 13509,
+                "state": "br",
+                "referenceId": "HRB 7105 CB",
+                "eventDate": "05.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Vattenfall Europe Generation Verwaltungs-AG, Cottbus(Vom-Stein-Str. 39, 03050  Cottbus). Prokura:Nicht mehr Prokurist:; 11. Dr. Florin, Jan-Henrich.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11948,
+        "timestamp": 1654156790650,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13510",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13510",
+                "rbId": 13510,
+                "state": "br",
+                "referenceId": "HRB 7304 CB",
+                "eventDate": "03.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "TSH Verwaltungsges. mbH., Forst (Lausitz)(Sorauer Str. 65, 03149  Forst (Lausitz)). Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Geschäftsführer: 3. Garweg, Kai, *18.07.1965, Cottbus; mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Geschäftsführer: 4. Klömpges, Martina, *18.10.1966, Forst/Lausitz; mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Die Gesellschafterversammlung vom 24.11.2006 hat die Änderung des Gesellschaftsvertrages in § 5 Abs. 2 (Geschäftsjahr), § 6 (Geschäftsführung, Vertretung), § 9 (Gesellschafterbeschlüsse), § 10 (Veräußerung und Belastung von Geschäftsanteilen), § 11 (Einziehung von Geschäftsanteilen), § 12 (Erbfolge), § 13 (Kündigung), § 14 (Bekanntmachung),§ 15 (Schlußbestimmung), und die Hinzufügung von § 12 a (Bewertung und Abfindung) beschlossen.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11949,
+        "timestamp": 1654156791254,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13511",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13511",
+                "rbId": 13511,
+                "state": "br",
+                "referenceId": "HRB 7374 CB",
+                "eventDate": "29.03.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "HBS  Josef-Nawrocki-Straße 34 GmbH, Luckau(Zaackoer Weg 36, 15926  Luckau). Vertretungsregelung: Der Liquidator vertritt die Gesellschaft allein, auch wenn mehrere Liquidatoren bestellt sind. Nicht mehr Geschäftsführer: 1. Bretschneider, Achim Kurt; Änderung zu Nr. 2: Liquidator:; Haupt, Lothar Werner, *05.01.1953, Görlsdorf; mit der Befugnis die Gesellschaft allein zu vertreten; Durch Beschluss der Gesellschafterversammlung vom 03.11.2006 ist die Gesellschaft aufgelöst.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11950,
+        "timestamp": 1654156791876,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13512",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13512",
+                "rbId": 13512,
+                "state": "br",
+                "referenceId": "HRB 7670 CB",
+                "eventDate": "28.03.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Lausitzer Schrottverwertung Gesellschaft mit beschränkter Haftung, Lübbenau(Am Kraftwerk, 03222  Lübbenau). Nicht mehr Geschäftsführer:; 3. Mast, Peter Benno; Geschäftsführer:; 4. Hoffschröer, Stefan, *15.02.1967, Pankethal; mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11951,
+        "timestamp": 1654156792500,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13513",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13513",
+                "rbId": 13513,
+                "state": "br",
+                "referenceId": "HRB 7677 CB",
+                "eventDate": "11.04.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Aibach GmbH, Lübbenau(Straße des Friedens 35, 03222  Lübbenau). Stammkapital: 26.000,00 EUR. Die Gesellschafterversammlung vom 26.02.2007 hat die Stammkapitalerhöhung auf 26.000,00 EUR beschlossen und den Gesellschaftsvertrag in § 3 (Stammkapital, Stammeinlagen)geändert.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11952,
+        "timestamp": 1654156793126,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13514",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13514",
+                "rbId": 13514,
+                "state": "br",
+                "referenceId": "HRB 7684 CB",
+                "eventDate": "30.03.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "SEDULUS Steuerberatungsgesellschaft mbH, Cottbus(Altmarkt 15, 03046  Cottbus). In Berlin ist eine Zweigniederlassung unter der Firma SEDULUS Steuerberatungsgesellschaft mbH errichtet.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11953,
+        "timestamp": 1654156793725,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13515",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13515",
+                "rbId": 13515,
+                "state": "br",
+                "referenceId": "HRB 6411 CB",
+                "eventDate": "29.03.2007",
+                "eventType": "delete",
+                "status": "STATUS_INACTIVE"
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11954,
+        "timestamp": 1654156794365,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13516",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13516",
+                "rbId": 13516,
+                "state": "br",
+                "referenceId": "HRB 6879 CB",
+                "eventDate": "02.04.2007",
+                "eventType": "delete",
+                "status": "STATUS_INACTIVE"
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11955,
+        "timestamp": 1654156794974,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13517",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13517",
+                "rbId": 13517,
+                "state": "br",
+                "referenceId": "HRB 7554 CB",
+                "eventDate": "04.04.2007",
+                "eventType": "delete",
+                "status": "STATUS_INACTIVE"
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11956,
+        "timestamp": 1654156799255,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13524",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13524",
+                "rbId": 13524,
+                "state": "br",
+                "referenceId": "HRA 4297 P",
+                "eventDate": "28.03.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Schloss Kartzow GmbH & Co. KG, Kartzow(Schloss Kartzow An der Dorfstraße, 14476  Kartzow). Vertretungsregelung: Jeder persönlich haftende Gesellschafter vertritt die Gesellschaft allein. persönlich haftender Gesellschafter: 1. Verwaltungsgesellschaft Schloss Kartzow GmbH, Kartzow (Amtsgericht Potsdam, HRB 20043 P); Kommanditgesellschaft; Tag der ersten Eintragung: 13.12.2006."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11957,
+        "timestamp": 1654156799884,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13525",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13525",
+                "rbId": 13525,
+                "state": "br",
+                "referenceId": "HRA 4301 P",
+                "eventDate": "02.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Tischlerei Emil Tischler Falkensee e.K., Falkensee(Kastanienallee 21-23, 14612  Falkensee, Tischlerei.). Inhaber: 1. Tischler, Dietmar, *16.08.1937, Falkensee; Einzelkaufmann."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11958,
+        "timestamp": 1654156800496,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13526",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13526",
+                "rbId": 13526,
+                "state": "br",
+                "referenceId": "HRA 4302 P",
+                "eventDate": "02.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Elektroinstallation Bernt Heine (ELEKTRO-HEINE) Inh. Chris Heine e.K., Potsdam(Steinstraße 73, 14480  Potsdam, Elektrotechnik/Elektroinstallationen aller Art, Beratung, Planung, Ausführung und Kundendienst.). Inhaber: 1. Heine, Chris, *09.10.1970, Potsdam; Einzelkaufmann."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11959,
+        "timestamp": 1654156803642,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13527",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13527",
+                "rbId": 13527,
+                "state": "br",
+                "referenceId": "HRA 4303 P",
+                "eventDate": "03.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "HSB Scholz Ltd. & Co KG, Mittenwalde(Ziegelweg 4 a, 15749  Mittenwalde OT Töpchin, Durchführung von Sanitär-, Heizungs- und Dacheindeckungsarbeiten sowie Handel mit Sanitär-, Heizungs- und Dacheindeckungsmaterialien.). Vertretungsregelung: Jeder persönlich haftende Gesellschafter vertritt die Gesellschaft allein. Die persönlich haftenden Gesellschafter dürfen Rechtsgeschäfte mit sich selbst oder mit sich als Vertreter Dritter abschließen. persönlich haftender Gesellschafter: 1. HSB Scholz Ltd., Birmingham, Großbritannien (Companies House, NO.: 6005947); mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Kommanditgesellschaft."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11960,
+        "timestamp": 1654156804302,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13528",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13528",
+                "rbId": 13528,
+                "state": "br",
+                "referenceId": "HRA 4304 P",
+                "eventDate": "03.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Energiequelle GmbH & Co. Windpark Wittenburg KG, Zossen(Hauptstraße 44, 15806  Zossen OT Kallinchen, Errichtung und Betrieb von Windkraftanlagen.). Vertretungsregelung: Jeder persönlich haftende Gesellschafter vertritt die Gesellschaft allein. Die persönlich haftenden Gesellschafter dürfen Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abschließen. persönlich haftender Gesellschafter: 1. Energiequelle Verwaltungs GmbH, Feldheim (Amtsgericht Potsdam, HRB 17169 P); Kommanditgesellschaft."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11961,
+        "timestamp": 1654156805485,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13529",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13529",
+                "rbId": 13529,
+                "state": "br",
+                "referenceId": "HRA 4310 P",
+                "eventDate": "16.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "NANOFIX OHG, Belzig(Briesener Straße 13, 14806  Belzig OT Lütte, Vertrieb von chemischen und technischen Produkten für Handwerk und Industrie.). Vertretungsregelung: Jeder persönlich haftende Gesellschafter vertritt die Gesellschaft allein. persönlich haftender Gesellschafter: 1. Wernitz, Torsten, *26.05.1073, Belzig OT Schwanebeck; persönlich haftender Gesellschafter: 2. Zarbock, René, *02.11.1977, Belzig OT Lütte; Offene Handelsgesellschaft."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11962,
+        "timestamp": 1654156806118,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13530",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13530",
+                "rbId": 13530,
+                "state": "br",
+                "referenceId": "HRB 20127 P",
+                "eventDate": "26.03.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "BESTA GmbH Berlin Personalservice, Schönefeld(Mittelstraße 9, 12529  Schönefeld). Gegenstand: Verleihen von Arbeitnehmern auf der Grundlage des Gesetzes zur Regelung der gewerbsmäßigen Arbeitnehmerüberlassung i.d. Fassung vom 14.06.1985 i.V.m. Anlage I Kapital VIII Sachgebiet E Abschnitt II Nr. 2 des Einigungsvertrages vom 31.08.1990; Arbeitsvermittlung; Durchführung von Büroserviceleistungen; Organisation und Personalberatung; Fort- und Weiterbildung; Auftragsvermittlung; Projektkoordinierung Stammkapital: 25.564,59 EUR. Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch diese Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Jäger, Wolfgang, *14.11.1946, Stahnsdorf; mit der Befugnis die Gesellschaft allein zu vertreten, mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen. Geschäftsführer: Nakszynski, Heike, geb. Petersohn, *13.01.1957, Berlin. Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom: 08.03.1994, zuletzt geändert durch Beschluss vom 12.10.2004. Durch Beschluss der Gesellschafterversammlung vom 16.01.2007 ist der Sitz der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 51872 B) nach Schönefeld verlegt und der Gesellschaftsvertrag geändert in § 1 Ziffer 2 (Sitz)."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11963,
+        "timestamp": 1654156806791,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13531",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13531",
+                "rbId": 13531,
+                "state": "br",
+                "referenceId": "HRB 20138 P",
+                "eventDate": "29.03.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Alufun GmbH, Schönwalde-Glien(Am Rosengarten 5, 14621  Schönwalde-Glien). Gegenstand: Die Entwicklung, Vorbereitung und Fertigung von Aluminiumkonstruktionen für eigene und fremde Rechnung; der Handel mit derartigen Halb- und Fertigprodukten und damit zusammenhängendem Zubehör, die Nutzung, Haltung und Vergabe von Lizenzen zu den vorstehend genannten Produkten. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Fette, Werner, *29.03.1944, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Geschäftsführer: Hinderberger, Friedel, *27.02.1945, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 05.12.2006 mit Änderung vom 09.03.2007."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11964,
+        "timestamp": 1654156807418,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13532",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13532",
+                "rbId": 13532,
+                "state": "br",
+                "referenceId": "HRB 20139 P",
+                "eventDate": "29.03.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "MICCE GmbH, Falkensee(Falkenhagener Straße 29, 14612  Falkensee). Gegenstand: Der Vertrieb von Produkten für den Bau von Niedrigenergie- und Passivhäusern, Gebäudereinigung und Abriß. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Pohl, Maik, *02.07.1960, Falkensee; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; War Geschäftsführer: Magas, Dario, *20.05.1963, Berlin; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 02.11.1999 zuletzt geändert durch Beschluss vom 08.06.2004 Durch Beschluss der Gesellschafterversammlung vom 12.02.2007 ist der Sitz der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 94213 B) nach Falkensee verlegt und der Gesellschaftsvertrag geändert in § 1(Firma, Sitz). Die Firma ist geändert von vormals: pion GmbH. Tag der ersten Eintragung: 13.04.2000."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11965,
+        "timestamp": 1654156808042,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13533",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13533",
+                "rbId": 13533,
+                "state": "br",
+                "referenceId": "HRB 20142 P",
+                "eventDate": "30.03.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Die Hauskrankenpflege \"leben zu Hause\" GmbH, Mittenwalde(Bergstraße 3, 15749  Mittenwalde OT Motzen). Gegenstand: Die ambulante, häusliche Krankenpflege. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten.Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer:;Scheibe, Heiko, *19.11.1950, Bestensee; mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 26.02.2007."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11966,
+        "timestamp": 1654156808673,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13534",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13534",
+                "rbId": 13534,
+                "state": "br",
+                "referenceId": "HRB 20144 P",
+                "eventDate": "02.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Escoba Warenhandels GmbH, Falkensee(Straße der Einheit 104, 14612  Falkensee). Gegenstand: Der Groß- und Einzelhandel mit Möbeln und der Betrieb eines Möbelladengeschäfts mit Importmöbeln, sowie der Vertrieb von Werkzeugen und Spielzeugen. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten.Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer:Asan, Muhlis, *20.05.1970, Berlin; mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Geschäftsführer:Yilmaz, Cemalettin, *25.04.1976, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließenProkura:Hassanain, Riad Khalil, *18.05.1981, Berlin; Einzelprokura Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 19.07.2005Durch Beschluss der Gesellschafterversammlung vom 22.02.2007 ist der Sitz der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 97927 B) nach Falkensee verlegt und der Gesellschaftsvertrag geändert in § 1 Ziffer 2 (Sitz).; Tag der ersten Eintragung: 02.08.2005."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11967,
+        "timestamp": 1654156809302,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13535",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13535",
+                "rbId": 13535,
+                "state": "br",
+                "referenceId": "HRB 20145 P",
+                "eventDate": "02.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "BMK - Berliner Massivhaus Konzept GmbH, Michendorf(Elsterstr. 1 H, 14552  Michendorf OT Bergheide). Gegenstand: Die Beratung von Unternehmen in betriebswirtschaftlichen Angelegenheiten sowie der Vertrieb von Ein- und Mehrfamilienhäusern. Insbesondere werden Unternehmen beraten, die sich mit dem Vertrieb von Häusern und dem Immobilienverkauf beschäftigen. Für diese Unternehmen werden u.a. Unternehmenskonzepte im Bereich Marketing und Vertrieb entwickelt und umgesetzt. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer.Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Geschäftsführer:;Groß, Kathrin, *19.01.1971, Michendorf; mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis die Gesellschaft mit einem anderen Geschäftsführer oder einem Prokuristen zu vertreten; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 12.01.2007 mit Änderung vom 17.02.2007.."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11968,
+        "timestamp": 1654156809909,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13536",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13536",
+                "rbId": 13536,
+                "state": "br",
+                "referenceId": "HRB 20148 P",
+                "eventDate": "03.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Appealing Promotion & Print Limited, Blankenfelde-Mahlow(Rangsdorfer Weg 3, 15827  Blankenfelde-Mahlow). Zweigniederlassung der unter der Firma Appealing Promotion & Print Limited in Birmingham bestehenden Hauptniederlassung (Companies House Cardiff Nummer 5394062). Gegenstand: Die Produktveredelung, Werbeartikel und Druck. Grund- oder Stammkapital: 100 GBP Vertretungsregelung: Ist nur ein Director bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Directors bestellt, so wird die Gesellschaft durch diese gemeinsam vertreten. Director:;Sailer, Jürgen, *24.06.1942, Blankenfelde-Mahlow; Gesellschaft mit beschränkter Haftung nach englischem Recht; Gesellschaftsvertrag vom 16.03.2005."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11969,
+        "timestamp": 1654156810517,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13537",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13537",
+                "rbId": 13537,
+                "state": "br",
+                "referenceId": "HRB 20149 P",
+                "eventDate": "10.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Seniorenresidenz am Kurpark Kreischa GmbH, Ludwigsfelde(Teltowkehre 16, 14974  Ludwigsfelde). Gegenstand: Die Errichtung von Einrichtungen und die Unterhaltung von Immobilien der Altenpflege sowie die Vermietung und Verwaltung entsprechender Objekte. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Jose, Christian, *31.12.1952, Trebbin; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; War Geschäftsführer: Merten, Thomas, *05.04.1966, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 15.06.2005 Durch Beschluss der Gesellschafterversammlung vom 19.01.2007 ist der Sitz der Gesellschaft von Kreischa (Amtsgericht Dresden, HRB 24022) nach Ludwigsfelde verlegt und der Gesellschaftsvertrag geändert in § 1 Abs. 2 (Sitz). Tag der ersten Eintragung: 14.10.2005."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11970,
+        "timestamp": 1654156811135,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13538",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13538",
+                "rbId": 13538,
+                "state": "br",
+                "referenceId": "HRB 20150 P",
+                "eventDate": "05.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "MEKAN GmbH, Schönefeld(Schulzendorfer Straße 12, 12529  Schönefeld). Gegenstand: Die Verwaltung eigenen Vermögens, der An- und Verkauf von Immobilien, die Planung, Projektierung und Durchführung von Neubauten, Teilungen nach § 8 WEG, Vergabe damit erforderlicher Aufträge und Erbringung hiermit zusammenhängender Dienstleistungen einschließlich der Verwaltung, Vermietung und der Verkauf im Bestand befinderlicher Häuser, Wohnungen oder Grundstücke. Stammkapital: 25.000 EUR. Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Dr. Kandler, Jakob, *03.06.1953, München; Geschäftsführer: Metzger, Helmut, *23.10.1964, Berlin; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 22.11.2006. Durch Beschluss der Gesellschafterversammlung vom 06.02.2007 ist der Sitz der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 104890 B) nach Schönefeld verlegt und der Gesellschaftsvertrag neu gefasst, insbesondere § 1 (Firma und Sitz); § 2 (Gegenstand des Unternehmens) und § 3 (Stammkapital). Die Firma ist geändert von vormals: MERLINETIK GmbH."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11971,
+        "timestamp": 1654156811763,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13539",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13539",
+                "rbId": 13539,
+                "state": "br",
+                "referenceId": "HRB 20152 P",
+                "eventDate": "10.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "ELITE Truck Bodies GmbH, Ludwigsfelde(Brandenburgische Straße 51 - 53, 14974  Ludwigsfelde). Gegenstand: Der Handel mit Autoteilen aller Art, insbesondere mit Autoaufbauten. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Diers, Anette Inge, *15.06.1962, Darmstadt; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Geschäftsführer: Simpson, Peter William, *13.04.1955, Sheriff Hutton; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 06.06.2005 Durch Beschluss der Gesellschafterversammlung vom 20.12.2006 ist der Sitz der Gesellschaft von Hirschberg (Amtsgericht Mannheim, HRB 433110) nach Ludwigsfelde verlegt und der Gesellschaftsvertrag geändert in § 1 Ziffer 2 (Sitz). Tag der ersten Eintragung: 13.07.2005."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11972,
+        "timestamp": 1654156812370,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13540",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13540",
+                "rbId": 13540,
+                "state": "br",
+                "referenceId": "HRB 20154 P",
+                "eventDate": "11.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "When 6 is 9 productions GmbH, Potsdam(Benkertstr. 10, 14467  Potsdam). Gegenstand: Film- und Kunstproduktion und -vertrieb Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten.Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer:Stabe, Carola, *31.05.1955, Potsdam; mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter DritterabzuschließenProkura: Roloff, Stefan, *24.06.1953, Berlin; Einzelprokura Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 08.01.2007."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11973,
+        "timestamp": 1654156812984,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13541",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13541",
+                "rbId": 13541,
+                "state": "br",
+                "referenceId": "HRB 20155 P",
+                "eventDate": "11.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Inforum Finance GmbH, Kleinmachnow(Leite 62, 14532  Kleinmachnow). Gegenstand: Die Übernahme einzelner oder sämtlicher Aufgaben im Bereich des Managements von Unternehmen und Handelsgesellschaften (z. B. Vertrieb, Contrtrolling, Betriebsorganisation usw.), die Übernahme der persönlichen Haftung und der Geschäftsführung bei Unternehmen und Handelsgesellschaften, der Erwerb und die Verwaltung von Beteiligungen. Die Eigenkapitalvermittlung, die Vermittlung des Abschlusses und Nachweis der Gelegenheit zum Abschluss von Verträgen über Grundstücke, grundstücksgleiche Rechte, gewerbliche Räume, Wohnräume und Darlehen. Der Abschluss von Verträgen (Vermittlung des Abschlusses und Nachweis der Gelegenheit zu Abschluss) über öffentlich angebotene Anteile an einer Kapitalgesellschaft oder Kommanditgesellschaft. Grund- oder Stammkapital: 50.000 DM Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten.Alleinvertretungsbefugnis kann erteilt werden. War Geschäftsführer:Sommerfeld, Christian, *12.06.1965, Berlin; mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Geschäftsführer:;Sommerfeld, Ellen, geb. Gerweck, *28.08.1970, Berlin; mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 03.11.1997 ,zuletzt geändert durch Beschluss vom 14.12.2005 (Sitzverlegung von Rangsdorf, Amtsgericht Potsdam, HRB 17160 nach Berlin).Durch Beschluss der Gesellschafterversammlung vom 07.03.2007 ist der Sitz der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 100964 B) nach Kleinmachnow verlegt und der Gesellschaftsvertrag nach Änderung der Firma geändert in § 1 (Firma, Sitz)..."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11974,
+        "timestamp": 1654156813614,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13542",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13542",
+                "rbId": 13542,
+                "state": "br",
+                "referenceId": "HRB 20156 P",
+                "eventDate": "11.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "exCentos GmbH, Potsdam(Hebbelstraße 38, 14469  Potsdam). Gegenstand: Die Entwicklung und der Vertrieb von Computer-Software sowie der Handel mit Computer Hard- und Software. Stammkapital: 33.150 EUR. Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Kühn, Nikolaus, *13.07.1976, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten. Geschäftsführer: Tangermann, Ole, *18.04.1977, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten. Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom: 04.10.2006, zuletzt geändert durch Beschluss vom 29.12.2006. Durch Beschluss der Gesellschafterversammlung vom 27.02.2007 ist der Sitz der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 104455 B) nach Potsdam verlegt und der Gesellschaftsvertrag geändert in § 1 Ziffer 1.2 (Sitz)."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11975,
+        "timestamp": 1654156814243,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13543",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13543",
+                "rbId": 13543,
+                "state": "br",
+                "referenceId": "HRB 20157 P",
+                "eventDate": "11.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "CASHY GmbH, Potsdam(Am Luftschiffhafen 1, 14471  Potsdam). Gegenstand: Die Erbringung von Dienstleistungen im Bereich des Aufstellens und Betreibens von Geldautomaten. Stammkapital: 25.000 EUR. Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Dr. Zimmer, Norbert Johannes, *03.12.1961, Blankenfelde; mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen. Gesellschaft mit beschränkter Haftung. Gesellschaftsvertrag vom: 29.11.2006."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11976,
+        "timestamp": 1654156814846,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13544",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13544",
+                "rbId": 13544,
+                "state": "br",
+                "referenceId": "HRB 20158 P",
+                "eventDate": "11.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "GUT-Massivhaus GmbH, Potsdam(Benzstraße 7, 14482  Potsdam). Gegenstand: Die Errichtung von Gebäuden, insbesondere Eigenheimen, auch durch Subunternehmen sowie der Handel mit Baustoffen aller Art. Ferner die Tätigkeit als Generalübernehmer sowie das Auftreten als Musterbetrieb im Rahmen der \" Hausglück - schlüsselfertige Familienhäuser in massiver Bauweise\" - Unternehmensgruppe und Franchise- bzw. Lizenzzentrale. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Guttenberger, Ralph, *14.06.1958, Jessen (Elster) ST Schweinitz; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 10.01.2007."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11977,
+        "timestamp": 1654156815470,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13545",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13545",
+                "rbId": 13545,
+                "state": "br",
+                "referenceId": "HRB 20159 P",
+                "eventDate": "12.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "FSB - Bedachungen GmbH, Rangsdorf(Mittenwalder Straße 2, 15834  Rangsdorf). Gegenstand: Die handwerksmäßige Durchführung von Dachdecker-, Dachabdichtungs-, Dachbegrünungs-, Isolierungs- und Bauklempnerarbeiten einschließlich Solartechnik sowie alle damit in Zusammenhang stehenden Nebenarbeiten und Rechtsgeschäfte. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Die Gesellschaft hat einen oder mehrere Geschäftsführer. Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Bauer, Andreas, *05.05.1964, Zeuthen; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Geschäftsführer: Kluge, Nicole, *21.01.1979, Zeuthen; mit der Befugnis die Gesellschaft allein zu vertreten mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 02.03.2007."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11978,
+        "timestamp": 1654156816099,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13546",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13546",
+                "rbId": 13546,
+                "state": "br",
+                "referenceId": "HRB 20160 P",
+                "eventDate": "16.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Altmühltaler Mineralbrunnen GmbH, Baruth/Mark(An der Birkenpfuhlheide 2, 15837  Baruth/Mark). Gegenstand: Die Herstellung und der Vertrieb von alkoholischen Getränken, von alkolfreien Getränken und von Nebenprodukten sowie der Handel mit verwandten Erzeugnissen und der Betrieb einer Bierbrauerei. Stammkapital: 25.000 EUR.Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Kutschera, Günter, *11.09.1960, Treuchtlingen; mit der Befugnis die Gesellschaft allein zu vertreten; mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen. Prokura: Göring, Ronald, *05.10.1954, Treuchtlingen; Einzelprokura; Dr. Halbritter, Günther, *24.08.1964, Roth; Prokura gemeinsam mit einem Geschäftsführer oder einem weiteren Prokuristen; Rieß, Paul, *29.06.1953, Wünsdorf; Einzelprokura. Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 07.03.2002, zuletzt geändert durch Beschluss vom 27.11.2002. Durch Beschluss der Gesellschafterversammlung vom 02.02.2007 ist der Sitz der Gesellschaft von Treuchtlingen (Amtsgericht Ansbach, HRB 3513) nach Baruth/Mark verlegt und der Gesellschaftsvertrag geändert in § 1 Ziffer 2 (Sitz) und § 14 (Bekanntmachungen). Die Gesellschaft ist entstanden durch formwechselnde Umwandlung der Schäff-Bräu GmbH & Co. KG mit Sitz in Treuchtlingen (Amtsgericht Ansbach, HRA 1153) auf Grund des Umwandlungsbeschlusses vom 07.03.2002;06.06.2002. Auf Grund des Verschmelzungsvertrages vom 07.03.2002;06.06.2002 und der Zustimmungsbeschlüsse vom 07.03.2002 und 06.06.2002 ist die Schäff Verwaltungsgesellschaft mbH mit Sitz in Treuchtlingen (Amtsgericht Ansbach, HRB 2279) durch Übertragung ihres Vermögens unter Auflösung ohne Abwicklung als Ganzes auf die Gesellschaft verschmolzen. Es besteht ein Beherrschungs- und Ergebnisabführungsvertrag mit der Brandenburger Urstromquelle GmbH & Co. KG mit Sitz in Baruth/Mark (Amtsgericht Potsdam, HRA 1339 P), dem die Gesellschafterversammlung durch Beschlüsse vom 07.03.2002 und 06.06.2002 zugestimmt hat."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11979,
+        "timestamp": 1654156817542,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13547",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13547",
+                "rbId": 13547,
+                "state": "br",
+                "referenceId": "HRB 20163 P",
+                "eventDate": "16.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Frostkauf GmbH, Nuthe-Urstromtal(Flughorst 9, 14947  Nuthe-Urstromtal). Gegenstand: Der Handel mit Tiefkühlprodukten, Lebensmitteln und Nonfood-Produkten. Stammkapital: 500.000 EUR. Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten. Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer: Kronicke, Christel, geb. Tetzner, *26.01.1957, Berlin; mit der Befugnis die Gesellschaft allein zu vertreten; mit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 23.09.2006. Durch Beschluss der Gesellschafterversammlung vom 21.02.2007 ist der Sitz der Gesellschaft von Berlin (Amtsgericht Charlottenburg, HRB 104761 B) nach Nuthe-Urstromtal verlegt und der Gesellschaftsvertrag geändert in § 1 Absatz 2 (Sitz)."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11980,
+        "timestamp": 1654156818148,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13548",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13548",
+                "rbId": 13548,
+                "state": "br",
+                "referenceId": "HRB 20164 P",
+                "eventDate": "16.04.2007",
+                "eventType": "create",
+                "status": "STATUS_ACTIVE",
+                "information": "Merope SoftOrthopaedics GmbH, Luckenwalde(Im Biotechnologiepark, 14943  Luckenwalde). Gegenstand: Die Entwicklung, Herstellung und der Vertrieb von orthopädischen und postoperativen Bandagen und Schienen; Hilfsmitteln für Behinderte; Geräten für Therapie und Rehabilitation. Grund- oder Stammkapital: 25.000 EUR Vertretungsregelung: Ist ein Geschäftsführer bestellt, so vertritt er die Gesellschaft allein. Sind mehrere Geschäftsführer bestellt, wird die Gesellschaft gemeinschaftlich durch zwei Geschäftsführer oder durch einen Geschäftsführer in Gemeinschaft mit einem Prokuristen vertreten.Alleinvertretungsbefugnis kann erteilt werden. Geschäftsführer:Anapliotis, Nicolas, *27.04.1972, Berlin; mit der Befugnis die Gesellschaft allein zu vertretenmit der Befugnis Rechtsgeschäfte mit sich selbst oder als Vertreter Dritter abzuschließen; Gesellschaft mit beschränkter Haftung; Gesellschaftsvertrag vom: 15.02.2007."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11981,
+        "timestamp": 1654156818772,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13549",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13549",
+                "rbId": 13549,
+                "state": "br",
+                "referenceId": "HRA 1365 P",
+                "eventDate": "29.03.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "Schu-Gie Verwaltungs GmbH & Co. Immobilien KG, Güterfelde(Straße der Einheit 142-148, 14612  Falkensee). Der Sitz der Gesellschaft ist von Güterfelde nach Falkensee verlegt."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    },
+    {
+        "partitionID": 0,
+        "offset": 11982,
+        "timestamp": 1654156819398,
+        "compression": "uncompressed",
+        "isTransactional": false,
+        "headers": [],
+        "key": {
+            "payload": "br_13550",
+            "encoding": "text",
+            "schemaId": 0
+        },
+        "value": {
+            "payload": {
+                "id": "br_13550",
+                "rbId": 13550,
+                "state": "br",
+                "referenceId": "HRA 2131 P",
+                "eventDate": "28.03.2007",
+                "eventType": "update",
+                "status": "STATUS_ACTIVE",
+                "information": "ADVISA \"ERSTE\" BETEILIGUNGSGESELLSCHAFT mbH & Co Grundwert KG, Potsdam(Höhenstraße 3, 14469  Potsdam). Die Gesellschaft ist durch rechtskräftige Abweisung eines Antrags auf Eröffnung des Gesamtvollstreckungsverfahrens mangels einer die Kosten des Verfahrens deckenden Masse auf Grund des § 131 Abs. 2 Ziffer 1 HGB aufgelöst. (Beschluss des Amtsgerichts Potsdam vom 10.09.1999 AZ: 35 N 1070/98). Von Amts wegen eingetragen."
+            },
+            "encoding": "protobuf",
+            "schemaId": 1
+        }
+    }
+]

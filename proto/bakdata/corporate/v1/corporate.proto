@@ -11,6 +11,14 @@ message Corporate {
   string event_type = 6;
   Status status = 7;
   string information = 8;
+  string corporate_name = 9;
+  Adress adress = 10;
+  string person_id = 11;
+}
+
+message Adress {
+  string street = 1;
+  string postal_code = 2;
 }
 
 enum Status {

@@ -7,7 +7,8 @@ from confluent_kafka.serialization import StringSerializer
 
 from build.gen.bakdata.corporate.v1 import corporate_pb2
 from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate
-from rb_crawler.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC
+from build.gen.bakdata.corporate.v1.corporate_person_pb2 import Person
+from rb_crawler.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC, PERSON_TOPIC
 
 log = logging.getLogger(__name__)
 
@@ -29,9 +30,17 @@ class RbProducer:
 
         self.producer = SerializingProducer(producer_conf)
 
-    def produce_to_topic(self, corporate: Corporate):
+    def produce_to_corporate_events(self, corporate: Corporate):
         self.producer.produce(
             topic=TOPIC, partition=-1, key=str(corporate.id), value=corporate, on_delivery=self.delivery_report
+        )
+
+        # It is a naive approach to flush after each produce this can be optimised
+        self.producer.poll()
+
+    def produce_to_persons(self, person: Person):
+        self.producer.produce(
+            topic=PERSON_TOPIC, partition=-1, key=str(person.id), value=person, on_delivery=self.delivery_report
         )
 
         # It is a naive approach to flush after each produce this can be optimised

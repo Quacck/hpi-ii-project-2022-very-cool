@@ -5,7 +5,7 @@ import requests
 from parsel import Selector
 
 from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate, Status
-from rb_producer import RbProducer
+from rb_integrator import RbIntegrator
 
 log = logging.getLogger(__name__)
 
@@ -14,7 +14,6 @@ class RbExtractor:
     def __init__(self, start_rb_id: int, state: str):
         self.rb_id = start_rb_id
         self.state = state
-        self.producer = RbProducer()
 
     def extract(self):
         while True:
@@ -56,27 +55,28 @@ class RbExtractor:
     def handle_events(self, corporate, event_type, raw_text):
         if event_type == "Neueintragungen":
             self.handle_new_entries(corporate, raw_text)
-        elif event_type == "Veränderungen":
-            self.handle_changes(corporate, raw_text)
-        elif event_type == "Löschungen":
-            self.handle_deletes(corporate)
+        # elif event_type == "Veränderungen":
+        #     self.handle_changes(corporate, raw_text)
+        # elif event_type == "Löschungen":
+        #     self.handle_deletes(corporate)
 
     def handle_new_entries(self, corporate: Corporate, raw_text: str) -> Corporate:
         log.debug(f"New company found: {corporate.id}")
         corporate.event_type = "create"
         corporate.information = raw_text
         corporate.status = Status.STATUS_ACTIVE
-        self.producer.produce_to_topic(corporate=corporate)
+        RbIntegrator(corporate)
+        # self.producer.produce_to_topic(corporate=corporate)
 
-    def handle_changes(self, corporate: Corporate, raw_text: str):
-        log.debug(f"Changes are made to company: {corporate.id}")
-        corporate.event_type = "update"
-        corporate.status = Status.STATUS_ACTIVE
-        corporate.information = raw_text
-        self.producer.produce_to_topic(corporate=corporate)
+    # def handle_changes(self, corporate: Corporate, raw_text: str):
+    #     log.debug(f"Changes are made to company: {corporate.id}")
+    #     corporate.event_type = "update"
+    #     corporate.status = Status.STATUS_ACTIVE
+    #     corporate.information = raw_text
+    #     self.producer.produce_to_topic(corporate=corporate)
 
-    def handle_deletes(self, corporate: Corporate):
-        log.debug(f"Company {corporate.id} is inactive")
-        corporate.event_type = "delete"
-        corporate.status = Status.STATUS_INACTIVE
-        self.producer.produce_to_topic(corporate=corporate)
+    # def handle_deletes(self, corporate: Corporate):
+    #     log.debug(f"Company {corporate.id} is inactive")
+    #     corporate.event_type = "delete"
+    #     corporate.status = Status.STATUS_INACTIVE
+    #     self.producer.produce_to_topic(corporate=corporate)

@@ -18,7 +18,6 @@ class RbExtractor:
     def extract(self):
         while True:
             try:
-                log.info(f"Sending Request for: {self.rb_id} and state: {self.state}")
                 text = self.send_request()
                 if "Falsche Parameter" in text:
                     log.info("The end has reached")
@@ -55,10 +54,7 @@ class RbExtractor:
     def handle_events(self, corporate, event_type, raw_text):
         if event_type == "Neueintragungen":
             self.handle_new_entries(corporate, raw_text)
-        # elif event_type == "Veränderungen":
-        #     self.handle_changes(corporate, raw_text)
-        # elif event_type == "Löschungen":
-        #     self.handle_deletes(corporate)
+        # Ignore non-create events
 
     def handle_new_entries(self, corporate: Corporate, raw_text: str) -> Corporate:
         log.debug(f"New company found: {corporate.id}")
@@ -66,17 +62,3 @@ class RbExtractor:
         corporate.information = raw_text
         corporate.status = Status.STATUS_ACTIVE
         RbIntegrator(corporate)
-        # self.producer.produce_to_topic(corporate=corporate)
-
-    # def handle_changes(self, corporate: Corporate, raw_text: str):
-    #     log.debug(f"Changes are made to company: {corporate.id}")
-    #     corporate.event_type = "update"
-    #     corporate.status = Status.STATUS_ACTIVE
-    #     corporate.information = raw_text
-    #     self.producer.produce_to_topic(corporate=corporate)
-
-    # def handle_deletes(self, corporate: Corporate):
-    #     log.debug(f"Company {corporate.id} is inactive")
-    #     corporate.event_type = "delete"
-    #     corporate.status = Status.STATUS_INACTIVE
-    #     self.producer.produce_to_topic(corporate=corporate)

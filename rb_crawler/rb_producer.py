@@ -5,7 +5,7 @@ from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.protobuf import ProtobufSerializer
 from confluent_kafka.serialization import StringSerializer
 
-from build.gen.bakdata.corporate.v1 import corporate_pb2
+
 from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate
 from build.gen.bakdata.corporate.v1.corporate_person_pb2 import Person
 from rb_crawler.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC, PERSON_TOPIC
@@ -18,33 +18,46 @@ class RbProducer:
         schema_registry_conf = {"url": SCHEMA_REGISTRY_URL}
         schema_registry_client = SchemaRegistryClient(schema_registry_conf)
 
-        protobuf_serializer = ProtobufSerializer(
-            corporate_pb2.Corporate, schema_registry_client, {"use.deprecated.format": True}
+        corporate_protobuf_serializer = ProtobufSerializer(
+            Corporate, schema_registry_client, {"use.deprecated.format": True}
         )
 
-        producer_conf = {
+        person_protobuf_serializer = ProtobufSerializer(
+            Person, schema_registry_client, {"use.deprecated.format": True}
+        )
+
+        corporate_producer_conf = {
             "bootstrap.servers": BOOTSTRAP_SERVER,
             "key.serializer": StringSerializer("utf_8"),
-            "value.serializer": protobuf_serializer,
+            "value.serializer": corporate_protobuf_serializer,
         }
 
-        self.producer = SerializingProducer(producer_conf)
+        person_producer_conf = {
+            "bootstrap.servers": BOOTSTRAP_SERVER,
+            "key.serializer": StringSerializer("utf_8"),
+            "value.serializer": person_protobuf_serializer,
+        }
+
+        self.corporate_producer = SerializingProducer(corporate_producer_conf)
+        self.person_producer = SerializingProducer(person_producer_conf)
+
 
     def produce_to_corporate_events(self, corporate: Corporate):
-        self.producer.produce(
+        self.corporate_producer.produce(
             topic=TOPIC, partition=-1, key=str(corporate.id), value=corporate, on_delivery=self.delivery_report
         )
 
         # It is a naive approach to flush after each produce this can be optimised
-        self.producer.poll()
+        self.corporate_producer.poll()
 
     def produce_to_persons(self, person: Person):
-        self.producer.produce(
+        log.info(person)
+        self.person_producer.produce(
             topic=PERSON_TOPIC, partition=-1, key=str(person.id), value=person, on_delivery=self.delivery_report
         )
 
         # It is a naive approach to flush after each produce this can be optimised
-        self.producer.poll()
+        self.person_producer.poll()
 
     @staticmethod
     def delivery_report(err, msg):

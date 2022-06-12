@@ -31,6 +31,10 @@ class RbIntegrator:
     def get_corporate_name(self, information: str):
         return re.search(r'^[^,]*', information).group(0) # match everything up to the first ,
 
+    def get_people(self, information: str):
+        pass
+        # TODO: copy from slides
+
 if __name__ == "__main__":
     teststring = "Vattenfall Europe Mining Aktiengesellschaft, Cottbus(Vom-Stein-Straße 39, 03050  Cottbus). Nicht mehr Prokurist: 12. Dr. Florin, Jan-Henrich. Gegenstand"
     integrator = RbIntegrator()

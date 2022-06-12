@@ -125,7 +125,8 @@ services:
       CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
       CONNECT_PLUGIN_PATH: /usr/share/java,/usr/share/confluent-hub-components,/data/connect-jars
     volumes:
-      - ./connect/elastic-sink.json:/connect/elastic-sink.json
+      - ./connect/elastic_sink_corporate.json:/connect/elastic_sink_corporate.json
+      - ./connect/elastic_sink_json.json:/connect/elastic_sink_lobby.json
     command:
       - bash
       - -c

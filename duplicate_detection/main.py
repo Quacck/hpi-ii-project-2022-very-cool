@@ -8,10 +8,14 @@ doc = {
 }
 
 def main():
-        resp = es.search(index="person-events", expand_wildcards="all")
-        print("Got %d Hits:" % resp['hits']['total']['value'])
-        for hit in resp['hits']['hits']:
-            print("%(first_name)s %(last_name)s" % hit["_source"])
+        offset = 0
+        windows_size = 20
+        while True:
+            resp = es.search(index="person-events", from_=offset, sort=["city"] , size=windows_size, expand_wildcards="all")
+            offset += windows_size
+            for hit in resp['hits']['hits']:
+                print(f'{hit["_source"]["city"]}')
+            print("====================================================================")
 
 
 

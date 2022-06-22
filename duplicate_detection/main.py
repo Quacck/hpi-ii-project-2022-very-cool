@@ -1,18 +1,19 @@
 import requests
-from sympy import Q
+from elasticsearch import Elasticsearch
+
+es = Elasticsearch('http://localhost:9200')
+
+doc = {
+    'id': 'ZRYONlLXXgeJmfdnKNt15eseoxr6qAfcxhBzkyHs2UI'
+}
 
 def main():
-    url ="http://localhost:9200/person-events/_search?pretty"
-    query = """ 
-    { \"query\": { 
-            \"match_all\": { }
-        }
-    }
-    """
-    request = requests.get(url, headers={"Content-Type": "application/json"}, data=query)
-    print(request.content)
+        resp = es.search(index="person-events", expand_wildcards="all")
+        print("Got %d Hits:" % resp['hits']['total']['value'])
+        for hit in resp['hits']['hits']:
+            print("%(first_name)s %(last_name)s" % hit["_source"])
 
-    
+
 
 if __name__=="__main__":
     main()

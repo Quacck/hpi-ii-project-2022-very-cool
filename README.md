@@ -78,6 +78,8 @@ to move the data from the `coporate-events` topic into the Elasticsearch.
 This project uses [Poetry](https://python-poetry.org/) as a build tool.
 To install all the dependencies, just run `poetry install`.
 
+To install elasticdump, just run `npm install`.
+
 This project uses Protobuf for serializing and deserializing objects. We provided a
 simple [protobuf schema](./proto/bakdata/corporate/v1/corporate.proto).
 Furthermore, you need to generate the Python code for the model class from the proto file.

@@ -14,7 +14,7 @@ def main():
         # LOOP:
         while len(window) > 0:
             window.append(buffer.pop(0))
-            if len(window) < window_size: # fill up the window in the beginning
+            if len(window) >= window_size: # fill up the window in the beginning
                 window.pop(0)
 
             for to_be_compared_element in window[:-1]:

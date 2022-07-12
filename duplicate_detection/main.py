@@ -7,7 +7,7 @@ es = Elasticsearch('http://localhost:9200')
 
 
 def main():
-        window_size = 5
+        window_size = 100
         generator = helpers.scan(client=es, query= {"sort": ["city"]}, scroll="5m", index="person-events", preserve_order=True)
         window = [next(generator)]
 
